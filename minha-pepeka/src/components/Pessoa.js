@@ -3,8 +3,8 @@ function Pessoa({nome, idade, profissao, foto}){ // Para simplificar a chamada d
         <div>
             <h2>Nome: {nome}</h2>
             <h3>Idade: {idade}</h3>
-            <img src={foto} alt="anime photo"></img>
             <h3>Profissão: {profissao}</h3>
+            <img src={foto} alt="anime photo"></img>
         </div>
     )
 }

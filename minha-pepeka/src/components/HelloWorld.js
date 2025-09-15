@@ -1,8 +1,10 @@
+import styles from './Frase.module.css'
+
 function HelloWorld(){//Criando um componente
 return(
 
     <div>
-        <p>Olá mundo!</p>
+        <button className={styles.xibiuzada}>Meu botão</button>
     </div>
 
 )

@@ -1,13 +1,15 @@
-function Evento({numero}){
+import Button from "./evento/Button";
+
+function Evento(){
 
 
     function meuEvento(){
-    window.alert(`VOCÊ CLICOU NA MINHA PEPEKA ASSEDIADOR!!!! ${numero}`);
+    window.alert(`VOCÊ CLICOU NA MINHA PEPEKA ASSEDIADOR!!!!`);
 }
     return(
         <>
         <p>Clique para disparar o evento</p>
-        <button onClick={meuEvento} >Clica nessa pepeka vai descarado </button>
+        <Button event={meuEvento} text="Clique na pepeka" />
         </>
     )
 }

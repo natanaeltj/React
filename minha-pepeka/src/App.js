@@ -16,6 +16,7 @@ function App() {
   return ( //é necessario ter um elemento pai podendo ser uma div como visto abaixo
     <div className="App"> 
     <Form/>
+    <Evento />
 
     </div>
   );

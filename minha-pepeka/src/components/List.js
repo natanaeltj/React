@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function List({marca, lancamento}){                   
+function List({marca = "não tem marca dodoi!!", lancamento = 0}){                   
     return(
         <>  {/* Fragment- é ultilizado para simplificar o Doom */}
         <h1>Lista de linkado</h1>
@@ -16,7 +16,7 @@ function List({marca, lancamento}){
     lancamento: PropTypes.number,
 }
 
-List.defaultProps = { {/* ver por que o valor default não quer funcionar */}
+List.defaultProps = { /* é recomendade usar valores dafults como pode ser visto acima nas propriedades */
     marca: "Não tem marca dodoi!!!",
     lancamento: 0,
 }

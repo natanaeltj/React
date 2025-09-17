@@ -6,3 +6,7 @@ body{
 p{
   color: #ff0000;
 }
+
+img{
+  width: 300px;
+}

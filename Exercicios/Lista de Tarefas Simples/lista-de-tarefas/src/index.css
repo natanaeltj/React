@@ -1,0 +1,12 @@
+body {
+      display: flex;             /* Ativa o Flexbox */
+      justify-content: center;   /* Centraliza horizontalmente */
+      align-items: center;       /* Centraliza verticalmente */
+      height: 100vh;   
+      background-color: aquamarine;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
